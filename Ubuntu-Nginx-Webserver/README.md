@@ -83,6 +83,7 @@ without needing physical access to them.
 For this local lab, I enabled password authentication.
 I plan to practice SSH key authentication later.
 
+![SSH Configuration](Screenshots/5-SSH-configuration.png)
 
 
 
