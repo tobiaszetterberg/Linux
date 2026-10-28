@@ -22,3 +22,5 @@ Ubuntu automatically received the IP adress 10.0.2.15/24 thought DHCP.
 The server uses a virutal network adapter provided by te VirutalBox with NAT networking.
 
 This allows the server to access the internet for updates and software installations.
+
+![Network Configuration](Screenshots/2-Network-configuration.png)
