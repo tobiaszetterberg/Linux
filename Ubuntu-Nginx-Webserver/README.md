@@ -96,5 +96,11 @@ the server runs correctly.
 
 ![SSH Configuration](Screenshots/7-Installation-complete.png)
 
+## Troubleshooting
+
+After Ubuntu finished installing I encountered a "Failed unmouting cdrom.mount" error.
+
+
+
 
 
