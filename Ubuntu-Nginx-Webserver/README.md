@@ -40,4 +40,36 @@ this is a local web server lab.
 ![Storage Configuration](Screenshots/3-Storage-configuration.png)
 
 
-## Text here
+## Understanding the Linux Storage Layout
+
+After configuring the virtual disk Ubuntu showed me how the 25 GB of storage would be organized.
+
+**Here's what I learned:**
+
+- / (Root): The main filesystem where Ubuntu, installed software, configurations and other files are stored.
+
+- /boot: Contains the files Linux needs to start up.
+
+- ext4: The filesystem Ubuntu uses to organize and store files.
+
+- LVM (Logical Volume Manager): Allows storage to be managed more flexibly, including expanding logical volumes later.
+
+**My storage configuration:**
+
+- *Root (/): 11.5 GB*
+
+- *Boot (/boot): 2 GB*
+
+- *Unallocated LVM space: 11.5 GB*
+
+What I found interesting is that Ubuntu didn't assign all 25 GB to the root filesystem. Instead, it left some space available inside the LVM volume group, which can be used to expand storage later.
+
+**My analogy:** The disk is the warehouse, Root is the main storage, /boot contains the startup instructions, and LVM lets me reorganize the available space when needed.
+
+One thing to keep in mind: The 11.5 GB of free space is not unused disk space, but rather unallocated within the LVM (Logical Volume Manager).
+
+![Storage Configuration](Screenshots/4-Storage-layout.png)
+
+
+
+
