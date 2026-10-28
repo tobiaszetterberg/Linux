@@ -6,6 +6,7 @@ My first Linux server administration project.
 Install and configure an Ubuntu Server with Nginx
 to host a website and learn basic Linux administration.
 
+
 ### Virtual Disk Configuration
 
 I created a 25 GB virtual hard disk using the VDI format.
@@ -16,6 +17,7 @@ instead of reserving all 25 GB immediately.
 
 ![Virtual Machine Setup](Screenshots/1-VM-setup.png)
 
+
 ## Network Configuration
 Ubuntu automatically received the IP adress 10.0.2.15/24 thought DHCP.
 
@@ -24,6 +26,7 @@ The server uses a virutal network adapter provided by te VirutalBox with NAT net
 This allows the server to access the internet for updates and software installations.
 
 ![Network Configuration](Screenshots/2-Network-configuration.png)
+
 
 ## Storage Configuration
 
@@ -36,3 +39,5 @@ this is a local web server lab.
 
 ![Storage Configuration](Screenshots/3-Storage-configuration.png)
 
+
+## Text here
