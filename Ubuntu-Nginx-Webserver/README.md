@@ -24,3 +24,13 @@ The server uses a virutal network adapter provided by te VirutalBox with NAT net
 This allows the server to access the internet for updates and software installations.
 
 ![Network Configuration](Screenshots/2-Network-configuration.png)
+
+## Storage Configuration
+
+For this server I'll be using the full capacity of our virutal disk of 25 GB for my Ubuntu server.
+
+I picked LVM (Logical Volume Manager) because it makes it easier to manage and resize storage volumes later.
+
+I kept the default guided storage layout because
+this is a local web server lab.
+
