@@ -85,5 +85,16 @@ I plan to practice SSH key authentication later.
 
 ![SSH Configuration](Screenshots/5-SSH-configuration.png)
 
+### Ubuntu Server Installation
+
+I successfully installed Ubuntu Server 24.04 LTS
+with OpenSSH and security updates.
+
+During the installation I noticed a CPU warning in the logs. The installation completed
+so my next step is to reboot and verify that
+the server runs correctly.
+
+![SSH Configuration](Screenshots/7-Installation-complete.png)
+
 
 
