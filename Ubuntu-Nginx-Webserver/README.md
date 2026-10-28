@@ -34,3 +34,5 @@ I picked LVM (Logical Volume Manager) because it makes it easier to manage and r
 I kept the default guided storage layout because
 this is a local web server lab.
 
+![Storage Configuration](Screenshots/3-Storage-configuration.png)
+
