@@ -100,6 +100,8 @@ the server runs correctly.
 
 After Ubuntu finished installing I encountered a "Failed unmouting cdrom.mount" error.
 
+#(PROJECT IN PROGRESS)
+
 
 
 
