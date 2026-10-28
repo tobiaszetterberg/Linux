@@ -71,5 +71,18 @@ One thing to keep in mind: The 11.5 GB of free space is not unused disk space, b
 ![Storage Configuration](Screenshots/4-Storage-layout.png)
 
 
+## SSH Configuration
+
+I enabled OpenSSH Server during installation so I
+can remotely manage my Ubuntu Server through a terminal.
+
+SSH uses encrypted connections, normally over TCP
+port 22. This allows administrators to manage servers
+without needing physical access to them.
+
+For this local lab, I enabled password authentication.
+I plan to practice SSH key authentication later.
+
+
 
 
